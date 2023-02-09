@@ -1,0 +1,45 @@
+hide()
+
+[MC] "..................."
+
+setBackground(Braise_Couloir)
+[MC] "Je... Ou suis-je ?"
+[MC] "On dirait... Un château..."
+[MC] "Comment suis-je arrivé ici ?"
+[MC] "Je n'ai pas souvenir de venir ici..."
+[MC] "Je devrais chercher un peux..."
+[MC] "Qui sait ce que je vais trouver ici ?"
+narrator "Je commence à marcher dans le château."
+narrator "Je trouve un porte menant dans une grande salle."
+[MC] "Ah ? On dirait une salle au trésor..."
+[MC] "Avec de la chance, je vais trouver un trésor !"
+narrator "J'entre donc dans la salle rapidement."
+setBackground(Braise_Trone)
+narrator "La salle est immense, il y a de l'or partout."
+[MC] "Je suis riche !"
+[MC] "Vite ! Il faut prendre le maximum avant de partir !"
+??? "[voice(01_A_1)]Grr !"
+narrator "J’entends un puissant rugissement..."
+
+changeCharacter(Braise)
+show()
+narrator "Je me tourne pour faire face à un terrifiant dragon."
+*Dragon "[voice(01_A_2)]Grr ! Tu oses profaner mon château, mortel ?"
+*Dragon "[voice(01_A_3)]Je vais te rôtir pour ton insolence ! Grr !"
+[MC] "NOOOOOOOONNNN !"
+[MC] "Par pitié ! Trouvons un autre arrangement !"
+*Dragon "[voice(01_A_4)]Silence ! Je vais te rôtir et te manger tout cru !"
+narrator "Le dragon se prépare à cracher du feu."
+narrator "Je dois trouver un moyen de m'échapper !"
+narrator "J'essaie de m'enfuir par la porte."
+*Dragon "[voice(01_A_5)]MUAH AH AH AH ! Tu penses pouvoir t'échapper ?"
+*Dragon "[voice(01_A_6)]Subit ma puissance, mortel !"
+playSound(Dragon_Feu)
+narrator "Le Dragon me crache du feu dessus."
+
+hide()
+setBackground(null)
+narrator "Je suis incinéré par son souffle ardent."
+narrator "FIN"
+
+Load(01_B)

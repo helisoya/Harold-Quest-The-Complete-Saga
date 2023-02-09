@@ -1,0 +1,1 @@
+{"finishedChapters":[0,1,2,3,4,5,6,7],"pagesFound":[0,1,2,3,4,5,6],"playerName":"John","playerNameChoosed":true}
